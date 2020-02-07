@@ -13,7 +13,7 @@ import { QuioscoComponent } from './modules/quiosco/quiosco.component';
 import { LevantarNavegadorComponent } from './modules/levantar-navegador/levantar-navegador.component';
 import { HomeComponent } from './modules/home/home.component';
 import { ReporteUsabilidadComponent } from './modules/reporte-usabilidad/reporte-usabilidad.component';
-import { FuncionalidadDiprecaComponent } from './modules/funcionalidad-dipreca/funcionalidad-dipreca.component';
+import { FuncionalidadConsaludComponent } from './modules/funcionalidad-consalud/funcionalidad-consalud.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,7 @@ import { FuncionalidadDiprecaComponent } from './modules/funcionalidad-dipreca/f
     LevantarNavegadorComponent,
     HomeComponent,
     ReporteUsabilidadComponent,
-    FuncionalidadDiprecaComponent
+    FuncionalidadConsaludComponent
   ],
   imports: [
     BrowserModule,

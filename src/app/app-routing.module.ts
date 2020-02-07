@@ -8,7 +8,7 @@ import { DespliegueComponent } from './modules/despliegue/despliegue.component';
 import { ServiciosComponent } from './modules/servicios/servicios.component';
 import { QuioscoComponent } from './modules/quiosco/quiosco.component';
 import { LevantarNavegadorComponent } from './modules/levantar-navegador/levantar-navegador.component';
-import { FuncionalidadDiprecaComponent } from './modules/funcionalidad-dipreca/funcionalidad-dipreca.component';
+import { FuncionalidadConsaludComponent } from './modules/funcionalidad-consalud/funcionalidad-consalud.component';
 import { ReporteUsabilidadComponent } from './modules/reporte-usabilidad/reporte-usabilidad.component';
 
 
@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'servicios',             component: ServiciosComponent            },
   { path: 'quiosco',               component: QuioscoComponent              },
   { path: 'levantar-navegador',    component: LevantarNavegadorComponent    },
-  { path: 'funcionalidad-dipreca', component: FuncionalidadDiprecaComponent },
+  { path: 'funcionalidad-consalud',component: FuncionalidadConsaludComponent},
   { path: 'reporte-usabilidad',    component: ReporteUsabilidadComponent    }
 ];
 
